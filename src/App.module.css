@@ -1,0 +1,39 @@
+/* App.module.css */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #e74c3c;
+  --accent-color: #f39c12;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+/* Add animation to the router transitions */
+/* Customize animation as needed */
+.route-transition {
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.route-enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.route-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.route-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.route-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+}
