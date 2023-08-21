@@ -5,11 +5,11 @@
   justify-content: center;
   margin: 5%;
   width: 90%;
-  height: 70vh;
   position: relative;
   @media (max-width: 768px) {
     margin-top: 10%;
   }
+  overflow: hidden;
 }
 
 .canvas {
