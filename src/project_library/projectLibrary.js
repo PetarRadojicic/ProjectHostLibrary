@@ -13,6 +13,11 @@ const ProjectLibrary = () => {
       </ul>
     </>
   );
+  const descPaintReact = (
+    <>
+      <p>Simplified React-based paint application.</p>
+    </>
+  );
   const descAscii = (
     <>
       <p>Writen in React,simple ascii generator with lists and multiple styles to select from.</p>
@@ -75,6 +80,14 @@ const ProjectLibrary = () => {
         hostlink={"https://docs.google.com/document/d/1J7xgvOsSanDLrv21YzRSGx1WH4Xpha484pX123faCGY/edit?usp=sharing"}
         isWeb={true}
         imageUrl={"Js-Docx.png"}
+      />
+            <Section
+        title={"ReactPaint"}
+        desc={descPaintReact}
+        gitlink={"https://github.com/Steropor/ReactPaint"}
+        hostlink={"/ReactPaint"}
+        isWeb={true}
+        imageUrl={"snek.png"}
       />
     </>
   );
