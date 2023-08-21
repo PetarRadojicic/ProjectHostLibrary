@@ -68,7 +68,7 @@
   transition: background-color 0.3s ease;
 }
 
-.projectButton:hover {
+.content:hover {
   background-color: #0056b3;
 }
 
@@ -76,14 +76,14 @@
   margin-right: 10px;
 }
 
-.section:hover .content{
+.content:hover .content{
   transform: scale(1.01);
   background-color: #007bff;
   animation-duration: 2s;
   animation-timing-function: ease-in;
 }
 
-.section:hover .buttonSide {
+.content:hover .buttonSide {
   transform: scale(1.01);
   background-color: #007bff;
   animation-duration: 2s;

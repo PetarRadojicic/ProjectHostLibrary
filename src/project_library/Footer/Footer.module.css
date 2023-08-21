@@ -17,4 +17,6 @@
   .footer-right {
     flex: 1;
   }
-  
+  .footer a {
+    color: #e74c22;
+  }
