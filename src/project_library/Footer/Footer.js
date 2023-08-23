@@ -10,7 +10,7 @@ function Footer() {
       <div className={styles.footerRight}>
         <span>
           Github -
-          <a href="https://github.com/Steropor"> https://github.com/Steropor</a>
+          <a href="https://github.com/PetarRadojicic"> https://github.com/Steropor</a>
           <p>Email - petar@radojicic.co</p>
         </span>
       </div>
